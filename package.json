@@ -1,7 +1,11 @@
 {
   "name" : "origin",
   "description" : "An easily extendable base class",
-  "author" : "Ian White",
+  "contributors" : [ {
+    "name" : "Ian White",
+    "email": "ian.o.white@gmail.com",
+    "web"  : "http://www.ianowhite.info"
+  } ],
   "dependencies": {
     "underscore": "*"
   },
@@ -9,6 +13,17 @@
     "type": "git", 
     "url": "git://github.com/ian97531/origin.git"
   },
+  "keywords" : [
+    "base class",
+    "base",
+    "extend",
+    "extends",
+    "inherit",
+    "inherits",
+    "inheritance",
+    "subclass",
+    "subclasses"
+  ],
   "licenses": [
     {
       "type": "MIT",
@@ -16,5 +31,5 @@
     } 
   ],
   "main" : "lib/origin.js",
-  "version" : "0.5.1"
+  "version" : "0.5.2"
 }
