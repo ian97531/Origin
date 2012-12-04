@@ -1,0 +1,20 @@
+{
+  "name" : "origin",
+  "description" : "An easily extendable base class",
+  "author" : "Ian White",
+  "dependencies": {
+    "underscore": "*"
+  },
+  "repository" : {
+    "type": "git", 
+    "url": "git://github.com/ian97531/origin.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT" 
+    } 
+  ],
+  "main" : "lib/origin.js",
+  "version" : "0.5.0"
+}
