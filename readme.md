@@ -2,6 +2,8 @@ Origin
 =============
 
 This library provides an easily extendable base class that comes with some very convenient built-in instance methods and class methods.
+It differs from other implementations of extend in that it makes adding class methods very easy and provides a parent() method that
+makes calling methods from parent classes easy and reliable.
 
 Installation
 ------------
