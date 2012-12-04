@@ -77,8 +77,6 @@ var myClassInstance = new MyClass(arg1, arg2);
 
 ### + extend(options)
 
-#### Usage
-
 ```js
 var Subclass = Class.extend({ initializer : function() { ... }, 
                               properties : { ... },
@@ -94,9 +92,7 @@ a "properties" object containing values or methods to attach to instances
 of your new class, and a "classProperties" object that contains any
 class methods that you'd like attached to your new class.
 
-### + inheritsFromt(cls)
-
-#### Usage
+### + inheritsFrom(cls)
 
 ```js
 if ( Class.inheritsFrom(OtherClass) ) {
@@ -108,8 +104,6 @@ of the class that you pass in as an argument. Returns false otherwise.
     
 ### + superclass()  
 
-#### Usage
-
 ```js
 var ParentClass = Class.superclass();
 ```    
@@ -117,7 +111,6 @@ Returns the parent class.
     
 ### - parent(cls)
 
-#### Usage
 ```js
 var MyClass = ParentClass.extend({
   properties : {
@@ -137,8 +130,6 @@ context of 'this'.
     
 
 ### - cls()
-
-#### Usage
 
 ```js 
 var MyClass = ParentClass.extend({
