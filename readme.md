@@ -85,8 +85,8 @@ var Subclass = Class.extend({ initializer : function() { ... },
 ```
 
 Exactly as Origin.extend() allows you to create a subclass of Origin, 
-calling the extend class method on any class creates a subclass of
-that class. extend() takes a single dictionary that may contain an
+calling the extend class method on any subclass of Origin creates a subclass 
+of that class. extend() takes a single dictionary that may contain an
 "initializer" function (the constructor for the resulting class),
 a "properties" object containing values or methods to attach to instances
 of your new class, and a "classProperties" object that contains any
