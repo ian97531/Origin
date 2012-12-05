@@ -16,10 +16,10 @@ First, require Origin
 var Origin = require('origin');
 ```
     
-Use the extend class method on Origin or any subclass of origin to create a new class.
+Use the extend class method on Origin.Base or any subclass of Origin.Base to create a new subclass.
 
 ```js
-var MyClass = Origin.extend({
+var MyClass = Origin.Base.extend({
   
   // This function will become the constructor for your
   // new class
@@ -73,7 +73,7 @@ var myClassInstance = new MyClass(arg1, arg2);
 ```
 
 
-## The Origin Class Documentation
+## The Origin.Base Class Documentation
 
 ### + extend(options)
 
